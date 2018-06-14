@@ -1,0 +1,41 @@
+.drawerBody {
+    width: 300px;
+}
+
+.userSettings {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    width: 100%;
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.userInfo h3 {
+    margin-left: 15px;
+}
+
+.preferences {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topSitesInfo {
+    width: 140px!important;
+}
+
+.topSitesVisible {
+    color: green;
+}
+
+.topSitesHidden {
+    color: red;
+}

@@ -1,0 +1,182 @@
+.card {
+    border-radius: 5px !important;
+    padding: 0;
+    overflow: hidden;
+    transition: all 0.25s;
+    position: relative;
+    /* box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12); */
+    /* box-shadow: 0 0 20px rgb(234, 233, 233); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: white;
+}
+
+.card * {
+    text-decoration: none;
+}
+
+.card:hover {
+    /* box-shadow: 0px 20px 32px -3px rgba(0, 0, 0, 0.1); */
+    transition: all 0.2s;
+}
+
+@media(min-width:2000px) {
+    .card {
+        width: 19%;
+        margin: 0.5%;
+    }
+}
+
+@media(max-width:1999px) {
+    .card {
+        width: 23%;
+        margin: 1%;
+    }
+}
+
+@media(max-width: 1399px) {
+    .card {
+        width: 30.66%;
+        margin: 1.33%;
+    }
+}
+
+@media(max-width: 1199px) {
+    .card {
+        width: 46%;
+        margin: 2%;
+    }
+}
+
+@media(max-width: 800px) {
+    .card {
+        width: 92%;
+        margin: 4%;
+    }
+}
+
+.cardLink {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.media {
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+    height: 200px;
+}
+
+.title {
+    padding: 35px 25px !important;
+    font-size: 20px !important;
+    margin: auto !important;
+}
+
+.articleDescription p {
+    font-size: 16px !important;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.cardActions {
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 5px;
+    /* position: relative; */
+}
+
+.actionButtons {
+    display: flex;
+    align-items: center;
+    margin-left: 4px;
+}
+
+.actionButtons button {
+    font-size: 16px;
+    width: 33px;
+    height: 33px;
+}
+
+.actionButtons button.bookmark-button {
+    background: #f2f6f9;
+    transition: background-color 333ms ease-in-out;
+}
+
+.actionIcon {
+    color: #b2bcc3;
+}
+
+.shareButtons {
+    display: flex;
+    flex-direction: row;
+    transition: all 0.25s;
+    opacity: 1;
+    margin-right: 4px !important;
+    transform: translateX(0);
+}
+
+.shareButtons button {
+    width: 31px !important;
+    height: 31px !important;
+    font-size: 15px;
+    color: white;
+    margin: 3px;
+}
+
+.bookmarked {
+    background-color: #745fb5!important;
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+}
+
+.bookmarkedIcon {
+    color: white;
+}
+
+.hideShare {
+    opacity: 0;
+    transition: all 0.25s;
+    transform: translateX(-10px);
+    pointer-events: none;
+}
+
+.shareFacebook {
+    background: #3B5998 !important;
+}
+
+.shareFacebook:hover {
+    background: #476bb8 !important;
+}
+
+.shareTwitter {
+    background: #1DA1F2 !important;
+}
+
+.shareTwitter:hover {
+    background: #3eaef4 !important;
+}
+
+.shareLinkedin {
+    background: #0077B5 !important;
+}
+
+.shareLinkedin:hover {
+    background: #0095e6 !important;
+}
+
+.shareSlack {
+    background: #e8a723 !important;
+}
+
+.shareSlack:hover {
+    background: #ecb546 !important;
+}

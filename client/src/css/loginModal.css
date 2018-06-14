@@ -1,0 +1,94 @@
+.loginModal {
+    width: 450px!important;
+    height: 350px!important;
+    margin: auto;
+    bottom:0;
+    right:0;
+}
+
+.loginContents {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #e5e5e5;
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    outline: none;
+    border-radius: 3px;
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.login {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.login img {
+    width: 55px;
+    height: 55px;
+    margin-right: 20px;
+    margin-left: -75px;
+}
+
+.login div{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.loginHeader {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.finePrint {
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.finePrint span {
+    font-weight: 700;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+
+.buttons button {
+    color: white!important;
+    margin: 10px;
+}
+
+.loginTwitter {
+    background: #1DA1F2!important;
+}
+
+.loginTwitter:hover {
+    background: #0d8bd9!important;
+}
+
+.loginFacebook {
+    background: #3B5998!important;
+}
+
+.loginFacebook:hover {
+    background: #324b81!important;
+}
+
+.loginGoogle {
+    background: #DB4437!important;
+}
+
+.loginGoogle:hover {
+    background: #c23124!important;
+}

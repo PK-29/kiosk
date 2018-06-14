@@ -1,0 +1,43 @@
+.crypto {
+	display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.crypto .header {
+	display: flex;
+	flex-direction: row;
+	position: relative;
+}
+
+.header > div {
+	width: 100%
+}
+
+.crypto .header .add {
+	margin-left: 20px;
+	margin-top: 7px;
+	position: absolute;
+    right: -50px;
+}
+.crypto .positive {
+	color: green;
+}
+
+.crypto .negative {
+	color: red;
+}
+
+.currentPrice {
+	text-align: right!important;
+}
+
+.crypto .main {
+	font-size: 1.1em;
+	font-weight: 400;
+}
+
+.crypto .subMain {
+	color: #999;
+}

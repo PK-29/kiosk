@@ -1,0 +1,90 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  height: 100%;
+}
+
+html, body, .app {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.app {
+  height: 100%;
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 985px;
+  }
+}
+
+.middleTitle {
+	position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+.rightSettings {
+	position: absolute!important;
+	right: 24px;
+}
+
+.rightSettings .jss97, .rightSettings .MuiFormLabel-focused-97 {
+	color: black;
+}
+
+.rightSettings .MuiInput-inkbar-107:after, .rightSettings .jss107:after {
+	background-color: black;
+}
+
+.rightSettings .currencySelect {
+	margin-right: 20px;
+}
+
+.logo {
+	line-height: 0;
+}
+
+.logo img {
+	height: 64px;
+}
+
+.loading {
+  height: 100px!important;
+  width: 100px!important;
+  position: absolute;
+  right: 50%;
+  bottom: 50%;
+  transform: translate(50%,50%);
+}

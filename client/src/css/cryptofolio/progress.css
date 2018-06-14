@@ -1,0 +1,73 @@
+.cryptofolio-progress {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+}
+
+.cards {
+	margin-bottom: 30px;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.cards .stat {
+	margin: 0 5px;
+}
+
+.cards .stat .stat-content {
+	padding: 10px 20px;
+}
+
+.cards .stat h1, .cryptofolio-progress .stat h2 {
+	font-weight: 300;
+	text-align: center;
+}
+
+
+/* Minimal */
+
+.minimal {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 0!important;
+}
+
+.minimal .cards {
+	margin-top: 0!important;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: center;
+	margin-bottom: 15px!important;
+}
+
+.minimal .cards .stat {
+	margin: 0 5px;
+}
+
+.minimal .cards .stat .stat-content {
+	padding: 10px 20px;
+}
+
+.minimal .cards .stat h1 {
+	font-weight: 300;
+	text-align: center;
+	margin: 0!important;
+	font-size: 20px!important;
+}
+
+.minimal .cards .stat h2 {
+	font-weight: 300;
+	text-align: center;
+	margin: 0!important;
+	font-size: 16px!important;
+}
+
+

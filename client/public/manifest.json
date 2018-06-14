@@ -1,0 +1,30 @@
+{
+  "short_name": "Kiosk",
+  "name": "Kiosk",
+  "manifest_version": 2,
+
+  "description": "Stay up to day with the latest crypto news.",
+  "version": "1.3.2",
+
+  "browser_action": {
+    "default_icon": "favicon.ico",
+    "default_popup": "index.html"
+  },
+
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  
+  "content_security_policy": "script-src 'self' https://cdn.firebase.com https://*.firebaseio.com; object-src 'self'",
+
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "topSites",
+    "management",
+    "https://logo.clearbit.com/",
+    "https://s2.googleusercontent.com/s2/favicons?domain=",
+    "http://localhost/*",
+    "https://kiosk-f1a66.firebaseio.com/*"
+  ]
+}

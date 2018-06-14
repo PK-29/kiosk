@@ -1,0 +1,32 @@
+ .chromeApps {
+    display: flex;
+    width: 360px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-between;
+ }
+
+.chromeApp {
+    margin: 10px 0px;
+    padding: 8px!important;
+    border-radius: 3px!important;
+}
+
+.chromeApp > span {
+    display: flex;
+    flex-direction: column;
+}
+
+.chromeApp img {
+    width: 75px;
+}
+
+.chromeApp p {
+    margin: 0;
+    text-overflow: ellipsis;
+    max-width: 110px;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 12px;
+}

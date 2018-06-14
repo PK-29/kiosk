@@ -1,0 +1,60 @@
+.source {
+    width: 265px;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    color: black;
+    padding: 0!important;
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+.sortSource {
+    padding: 0!important;
+    padding-right: 10px!important;
+    flex-grow: 2;
+    justify-content: start!important;
+}
+
+.sortSource:hover {
+    background: transparent!important;
+}
+
+.source > span {
+    justify-content: normal!important;
+}
+
+.sidebar:hover .sourceName {
+    opacity: 1;
+    transition: all 0.3s;
+}
+
+.source:hover {
+    background-color: rgba(0, 0, 0, 0.12)!important;
+}
+
+.source:hover .linkIcon {
+    opacity: 1!important;
+}
+
+.sourceLogo {
+    height: 40px;
+    width: 40px;
+    margin: 12px;
+    box-shadow: 0 0 15px rgb(235, 235, 235);
+    border-radius: 50%;
+}
+
+.sourceName {
+    margin-left: 10px;
+    opacity: 0;
+}
+
+.linkIcon {
+    font-size: 22px;
+    opacity: 0;
+}

@@ -1,0 +1,135 @@
+.appBar {
+    background-color: #fff!important;
+    color: black!important;
+    box-shadow: 0px 2px 7px -1px rgba(0, 0, 0, 0.1) !important;
+}
+
+.appBar > div {
+    padding-left: 7px;
+}
+
+.left img {
+    width: 50px;
+    height: 50px;
+}
+
+.left {
+    display: flex;
+    flex-direction: row;
+    width: 45%;
+    justify-content: space-between;
+}
+
+.appBar img {
+    display: block;
+}
+
+.searchBar {
+    display:inline-block;
+    position: relative;
+    width: 80%;
+    margin-top: -5px;
+}
+
+.searchField {
+    margin: 0!important;
+    width: 100%;
+}
+
+.searchField div::before {
+    background: #e6eaec;
+}
+
+.searchIcon {
+    bottom: 8px;
+    position: absolute;
+    height: 28px!important;
+    width: 28px!important;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.right {
+    position: absolute;
+    right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.right .appsLogo {
+    margin-right: 10px;
+    min-width: 0;
+    padding: 8px 8px;
+    border-radius: 3px;
+}
+
+.right .appsLogo img {
+    width: 22px;
+}
+
+.right .topSites {
+    margin-right: 20px;
+}
+
+.right .topSite {
+    /* padding: 8px 8px;
+    min-width: 0px!important;
+    margin-right: 5px; */
+    padding: 8px;
+    min-width: 0!important;
+    /* box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12); */
+    border-radius: 20px;
+}
+
+.right .spacing {
+    margin: 0 1px;
+}
+
+.right .topSite img {
+    width: 20px;
+}
+
+.appBar .loginButton {
+    border-radius: 3px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.moreButton {
+    color: black!important;
+}
+
+.moreButton span div {
+    width: 34px;
+    height: 34px;
+}
+
+.moreIcon {
+    width: 30px!important;
+    height: 30px!important;
+    color: black!important;
+}
+
+.popover {
+    border-radius: 5px;
+}
+
+.popover div:nth-child(2) {
+    overflow: visible;
+    top: 64px!important;
+}
+
+.arrow-up {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #fff;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -15px;
+}
+
+.bookmarks {
+    color: #b2bcc3;
+}
