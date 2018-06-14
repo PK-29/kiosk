@@ -1,2 +1,2 @@
 # kiosk
-![Alt text](demo.jpeg?raw=true "Optional Title")
+![Alt text](demo.jpg?raw=true "Optional Title")
